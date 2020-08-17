@@ -104,6 +104,13 @@ body {
   margin: 0px;
 }
 
+.sp-curve {
+  background: hsl(240, 75%, 98%);
+  height:50px;
+  border-top-left-radius:50%;
+  border-top-right-radius:50%;
+}
+
 .sp-img {
   width: 100%;
   margin: 60px auto;
@@ -324,6 +331,12 @@ body {
     flex-direction: row-reverse;
     padding: 40px;
   }
+  .sp-curve {
+  background: hsl(240, 75%, 98%);
+  height:50px;
+  border-top-left-radius:50%;
+  border-top-right-radius:50%;
+}
   .sp-leftcol {
     flex: 50%;
   }
@@ -380,10 +393,146 @@ body {
 
 /* DESKTOP */
 @media (min-width: 1200px) {
+  body {
+    max-width: 1440px;
+    margin: auto;
+  }
   .menu {
     margin: 50px 60px 20px;
   }
+  .menu-nav {
+    flex: 0 0 22%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menu-item {
+    font-size: 1rem;
+  }
   .menu-logo {
     width: 160px;
+  }
+  .call-to-action {
+    margin: 40px 20px;
+  }
+  .cta-head {
+    font-size: 2.65rem;
+  }
+  .cta-text {
+    font-size: 1.2rem;
+    max-width: 620px;
+    margin-left: 0px;
+  }
+  .cta-img {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 100%;
+    width: 100%;
+  }
+  .cta-signup {
+    flex-wrap: nowrap;
+    margin-top: 10px;
+  }
+  .cta-input {
+    flex: 0 0 52%;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 45px;
+  }
+  .cta-btn {
+    flex: 0 0 32%;
+    font-size: 0.8rem;
+    margin-left: 15px;
+    height: 45px;
+  }
+  .sp-curve {
+  background: hsl(240, 75%, 98%);
+  height:80px;
+  border-top-left-radius:50%;
+  border-top-right-radius:50%;
+}
+  .sp-head {
+    font-size: 2.65rem;
+  }
+  .sp-leftcol {
+    flex: 60%;
+    margin-left: 20px;
+  }
+  .sp-rightcol {
+    margin-right: 20px;
+  }
+  .sp-text {
+    font-size: 1.05rem;
+    max-width: 545px;
+  }
+  .sp-link {
+    font-size: 1.05rem;
+    width: 174px;
+  }
+  .sp-img {
+    max-width: 100%;
+    align-self: flex-start;
+    margin-top: 55px;
+  }
+  .testimonial {
+    width: 405px;
+    padding: 20px 35px;
+  }
+  .test-text {
+    font-size: 1rem;
+  }
+  .test-quote {
+    width: 12px;
+  }
+  .early-access {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .ea-leftcol {
+    margin-left: 20px;
+    flex: 4;
+  }
+  .ea-rightcol {
+    margin-right: 20px;
+    margin-top: 15px;
+    flex: 3;
+    align-self: center;
+  }
+  .ea-head {
+    font-size: 2.2rem;
+  }
+  .ea-text {
+    font-size: 1.05rem;
+    max-width: 525px;
+  }
+  .ea-input {
+    max-width: 470px;
+    height: 45px;
+  }
+  .ea-btn {
+    max-width: 200px;
+    height: 45px;
+    font-size: 0.8rem;
+    margin-top: 5px;
+  }
+  .foot-container {
+    display: flex;
+    margin: 35px;
+    margin-top: 0px;
+  }
+  .ft-group.main {
+    flex: 3;
+  }
+  .ft-group {
+    flex: 2;
+  }
+  .foot-logo {
+    margin-left: 35px;
+    margin-bottom: 0px;
+    margin-top: 60px
+  }
+  .ft-social {
+    margin-top: 20px;
+    display: block;
   }
 }
