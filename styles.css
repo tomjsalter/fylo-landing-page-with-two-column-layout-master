@@ -288,6 +288,15 @@ body {
   color: white;
 }
 
+/* MOBILE */
+@media (min-width: 400px) {
+  .sp-curve {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
 /* TABLET */
 @media (min-width: 768px) {
   .menu {
