@@ -98,19 +98,15 @@ body {
   box-shadow: 0px 3px 10px 1px hsl(0, 0%, 75%);
 }
 
+.sp-curve {
+  margin-bottom: -5px;
+}
+
 .sales-pitch {
   background: hsl(240, 75%, 98%);
   padding: 20px;
   margin: 0px;
 }
-
-.sp-curve {
-  background: hsl(240, 75%, 98%);
-  height:50px;
-  border-top-left-radius:50%;
-  border-top-right-radius:50%;
-}
-
 .sp-img {
   width: 100%;
   margin: 60px auto;
@@ -198,12 +194,10 @@ body {
   justify-content: center;
   text-align: center;
 }
-
 .ea-head,
 .ea-text {
   color: white;
 }
-
 .ea-head {
   font-family: "Raleway", sans-serif;
   font-size: 1.1rem;
@@ -326,17 +320,18 @@ body {
   .cta-img {
     max-width: 80%;
   }
+
+  .sp-curve {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+  }
+
   .sales-pitch {
     display: flex;
     flex-direction: row-reverse;
     padding: 40px;
   }
-  .sp-curve {
-  background: hsl(240, 75%, 98%);
-  height:50px;
-  border-top-left-radius:50%;
-  border-top-right-radius:50%;
-}
   .sp-leftcol {
     flex: 50%;
   }
@@ -445,12 +440,6 @@ body {
     margin-left: 15px;
     height: 45px;
   }
-  .sp-curve {
-  background: hsl(240, 75%, 98%);
-  height:80px;
-  border-top-left-radius:50%;
-  border-top-right-radius:50%;
-}
   .sp-head {
     font-size: 2.65rem;
   }
